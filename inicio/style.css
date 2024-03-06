@@ -24,9 +24,15 @@ header {
   grid-template-rows: 80px;
   position: relative;
   z-index: 10;
+  transition: 0.5s;
+}
+header nav a:hover{
+  color: white;
+  text-decoration: underline;
 }
 header .logo img {
-  width: 80%;
+  width: 90%;
+  border-radius: 30%;
 }
 header .logo {
   display: flex;
@@ -34,7 +40,8 @@ header .logo {
   align-items: center;
 }
 header nav a {
-  color: #000;
+  text-decoration: none;
+  color: white;
   font-weight: 400;
 }
 header nav ul {
@@ -43,7 +50,8 @@ header nav ul {
   justify-content: end;
   align-items: center;
   gap: 30px;
-  padding-right: 30px;
+  padding-right: 100px;
+  list-style: none;
 }
 
 .carousel {
@@ -140,6 +148,9 @@ header nav ul {
   border-radius: 30px;
   border: none;
   margin-top: 20px;
+}
+.addToCard:hover{
+  cursor: grab;
 }
 .arrows {
   position: absolute;
