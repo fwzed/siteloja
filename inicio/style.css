@@ -31,8 +31,8 @@ header nav a:hover{
   text-decoration: underline;
 }
 header .logo img {
-  width: 90%;
-  border-radius: 30%;
+  width: 100%;
+  height: 100px;
 }
 header .logo {
   display: flex;
